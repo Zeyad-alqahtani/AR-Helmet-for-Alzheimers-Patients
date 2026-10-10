@@ -1,0 +1,79 @@
+# Original report and other potentially unredacted documents
+*.pdf
+
+# Private identities, embeddings, schedules, and location records
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.pickle
+*.pkl
+private/
+datasets/
+dataset/
+face-data/
+gps-logs/
+embeddings/
+data/private/
+data/raw/
+raw-data/
+*.log
+
+# Model weights and generated training outputs
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+*.ckpt
+runs/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials*.json
+credentials*.yaml
+credentials*.yml
+secrets*.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.ssh/
+.aws/
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Tooling and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
+tmp/
+temp/
+logs/
+*.tmp
+*.bak
+*~
+.codex/
+.agents/
+
+# Ignore rules are safeguards, not a replacement for reviewing every staged file.
